@@ -1,0 +1,12 @@
+body
+{
+     background-image:url('4.jpg');
+     background-repeat:no-repeat;
+     background-size:cover; 
+     background-position:fixed;
+}
+
+.cont:hover
+{
+    background: #DBE6F6;
+}

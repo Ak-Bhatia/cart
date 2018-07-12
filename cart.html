@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<style>
+	      /* Ensure elements are hidden while ScrollEntrance is loading */
+	      [data-entrance] { visibility: hidden; }
+	</style>
+
+	<style>
+	      /* Ensure elements are hidden while ScrollEntrance is loading */
+	      .js [data-entrance] { visibility: hidden; }
+	</style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	 
+    <link rel="stylesheet" type="text/css" href="style3.css">
+
+    <!-- Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu" rel="stylesheet">
+
+  <title> cart</title>
+  </head>
+  <body>
+
+<div style="height:500px"></div>
+
+    <div class="container bg-danger py-4 text-light text-center" style="font-family: 'Ubuntu', sans-serif;"><h1>Purchase Store</h1></div>
+
+  	<div class="container text-center mt-0 bg-dark text-light py-4" style="font-family: 'Ubuntu', sans-serif;" data-entrance="fade">
+  		<div class="row">
+  			<div class="col-lg-2"></div>
+  			<div class="col-lg-2 mt-2"><h4>Code</h4></div>
+  			<div class="col-lg-2 mt-2"><h4>Price</h4></div>
+  			<div class="col-lg-2 mt-2"><h4>No.of Copies</h4></div>
+  			<div class="col-lg-2 mt-2"><h4>Amount</h4></div>
+  		</div>
+  	</div>
+
+
+
+
+	<div class="container text-center bg-light" style="font-family: 'Josefin Sans', sans-serif; font-size: 1.4em;" data-entrance="from-left">
+  		<div class="row cont py-4">
+  			<div class="col-lg-2"><img src="2.png" width="80%" alt=""/></div>
+  			<div class="col-lg-2">
+  				<div class="row">
+  					<div class="col-lg-12 mt-2 mb-4">Code</div>
+  					<div class="col-lg-12 mt-2">From:</div>
+  					<div class="col-lg-12 mt-1">Shopkeeper</div>
+  				</div>
+  			</div>
+  			<div class="col-lg-2 mt-5">₹ 5</div>
+  			<div class="col-lg-2 mt-5">
+  				<input class="col-lg-2 px-0" type="submit" id="adding" value="+" name="">
+  				<input class="col-lg-6 px-0 text-center" id="copies" onchange="myFunction()" type="number" value="1" name="">
+  				<input class="col-lg-2 px-0" type="submit" id="subtract" value="-" name="">
+  			</div>
+  			<div class="col-lg-2 mt-5">₹ <span id="amount">5</span></div>
+  			<div class="col-lg-2 mt-5"><button class="btn btn-success btn-lg">Purchase</button></div>
+  		</div>
+  	</div>
+
+<div style="height: 400px;"></div>
+
+
+  	<script src="script.js"></script>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<script src="dists/croll-entrance.js"></script>
+	<script src="src/scroll-entrance.js"></script>
+ 
+ </body>
+</html>
